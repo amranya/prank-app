@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ly"
+    android:background="@drawable/gradient_2"
+    tools:context=".playActivity">
+
+
+    <com.github.ybq.android.spinkit.SpinKitView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/imageView"
+        style="@style/SpinKitView.Large.FoldingCube"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        app:SpinKit_Color="#ffffff" />
+
+    <Button
+        android:id="@+id/Button"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="click"
+        android:background="@drawable/btn"
+        android:text="@string/next"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif"
+        android:textSize="25sp"
+        android:textColor="#ffff"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/Button2"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="click2"
+        android:background="@drawable/btn"
+        android:text="@string/privacy"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffff"
+        android:layout_below="@+id/Button"
+        tools:ignore="ContentDescription" />
+
+    <RelativeLayout
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

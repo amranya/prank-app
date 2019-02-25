@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">مسلسلات</string>
+    <string name="bn">ca-app-pub-9951452536350512/6274948368</string>
+    <string name="it">ca-app-pub-9951452536350512/3265641645</string>
+    <string name="jsonLink">http://www.fanstrends.com/app1.json</string>
+    <string name="publisher_id">pub-9951452536350512</string>
+    <string name="privacyLink">https://gglplyacc123.wixsite.com/privacy-policy</string>
+    <!-- one signal -->
+
+
+    <!-- universal next button -->
+    <string name="next">التالي</string>
+
+    <!-- splash screen -->
+
+    <string name="app_connection_needed">التطبيق يحتاج لانترنيت!</string>
+    <string name="please_connect">Please connect...</string>
+    <string name="connecting">Connecting...</string>
+
+    <!-- activity1 -->
+
+    <string name="privacy">Privacy policy</string>
+
+    <!-- activity2 -->
+
+    <string name="chooseText_activity2">اختر اسمك عضويتك</string>
+    <string name="editText_activity2">ادخل الاسم</string>
+
+    <string name="Error_activity2">ERROR</string>
+    <string name="Error_text">المرجو ادخال اسم</string>
+
+    <!-- activity3 -->
+
+    <string name="chooseText_activity3">اختر رقمك السري</string>
+    <string name="editText1_activity3">ادخل رقمك السري</string>
+    <string name="editText2_activity3">تأكيد الرقم السري</string>
+
+    <string name="Error_activity3">ERROR</string>
+    <string name="Error_text1">المرجو تأكيد الرقم السري</string>
+    <string name="Error_text2">المرجو كتابة نفس الرقم السري</string>
+
+    <!-- activity4 -->
+
+    <string name="choose_country">اختر دولتك</string>
+
+    <!-- activity5 -->
+
+    <string name="choose_gender">اختر جنسك</string>
+
+    <!-- activity rate -->
+
+    <string name="toast_text">لم تقيم التطبيق بعد</string>
+
+    <!-- activity loading -->
+
+    <string name="loading_text">المرجو الانتظار....</string>
+
+    <!-- activity update -->
+
+    <string name="update_text">حمل النسخة الجديدة</string>
+    <string name="update_button">حمل الان</string>
+
+    <!-- last activity -->
+
+    <string name="error_text">خطأ أثناء الاتصال بالسيرفر.. المرجو التأكد من اتصالك بالنت ثم المحاولة مرة أخرى</string>
+    <string name="try_again">حاول مجددا</string>
+    <string name="try_other">جرب تطبيقا آخر</string>
+
+
+
+
+
+
+
+    <string name="title_activity_my_database">MyDatabase</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4ba4e4</color>
+    <color name="colorPrimaryDark">#4392CB</color>
+    <color name="colorAccent">#1195af</color>
+
+    <color name="colorWhile">#ffffff</color>
+    <color name="colorYellow">#ffffff</color>
+
+    <color name="gradientEndBack">#b10a2b</color>
+    <color name="gradientStartback">#f2768f</color>
+    <color name="editText">#04766b</color>
+    <color name="gradientEndButton">#150c81</color>
+    <color name="gradientStartButton">#5d50f5</color>
+
+
+
+
+</resources>
