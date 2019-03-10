@@ -4,16 +4,21 @@
     <color name="colorPrimaryDark">#4392CB</color>
     <color name="colorAccent">#1195af</color>
 
-    <color name="colorWhile">#ffffff</color>
-    <color name="colorYellow">#ffffff</color>
+    <!-- button text color -->
+    <color name="button_text_color">#ffffff</color>
 
+    <!-- text color -->
+    <color name="text_color">#ffffff</color>
+
+    <!-- background gradient -->
     <color name="gradientEndBack">#b10a2b</color>
     <color name="gradientStartback">#f2768f</color>
+
+    <!-- edit text gradient -->
     <color name="editText">#04766b</color>
+
+    <!-- button gradient -->
     <color name="gradientEndButton">#150c81</color>
     <color name="gradientStartButton">#5d50f5</color>
-
-
-
 
 </resources>

@@ -9,16 +9,13 @@
     android:background="@drawable/gradient_2"
     tools:context=".CountryPickActivity">
 
-    <com.github.ybq.android.spinkit.SpinKitView
-        xmlns:app="http://schemas.android.com/apk/res-auto"
+    <ImageView
         android:id="@+id/imageView"
-        style="@style/SpinKitView.Large.FoldingCube"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
-        android:layout_gravity="center"
-        app:SpinKit_Color="#ffffff" />
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/icon" />
 
     <com.hbb20.CountryCodePicker
         android:id="@+id/countryPicker"
@@ -43,7 +40,7 @@
         android:text="@string/choose_country"
         android:textStyle="bold"
         android:textSize="18sp"
-        android:textColor="@color/colorYellow"
+        android:textColor="@color/text_color"
         android:layout_marginTop="10dp"/>
 
     <Button

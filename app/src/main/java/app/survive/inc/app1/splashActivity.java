@@ -14,8 +14,6 @@ import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import com.ayoubfletcher.consentsdk.ConsentSDK;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.JsonHttpResponseHandler;
 import com.onesignal.OneSignal;
@@ -27,7 +25,6 @@ import cz.msebera.android.httpclient.Header;
 
 public class splashActivity extends AppCompatActivity {
 
-    private ConsentSDK consentSDK = null;
     final String LOGCAT_TAG = "Clima";
     String lk;
     TextView textView;
@@ -172,23 +169,7 @@ public class splashActivity extends AppCompatActivity {
         textView.setVisibility(View.INVISIBLE);
         textView2.setText(R.string.connecting);
         letsDoSomeNetworking();
-
-        consentSDK = new ConsentSDK.Builder(this)
-                .addTestDeviceId("your device id from logcat") // Add your start device id "Remove addTestDeviceId on production!"
-                .addCustomLogTag("CUSTOM_TAG") // Add custom tag default: ID_LOG
-                .addPrivacyPolicy("https://your.privacy.url/") // Add your privacy policy url
-                .addPublisherId(getString(R.string.publisher_id)) // Add your admob publisher id
-                .build();
-
-        // To check the consent and to move to MainActivity after everything is fine :).
-        consentSDK.checkConsent(new ConsentSDK.ConsentCallback() {
-            @Override
-            public void onResult(boolean isRequestLocationInEeaOrUnknown) {
-
-                goNext();
-
-            }
-        });
+        goNext();
 
 
 
